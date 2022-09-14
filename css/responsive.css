@@ -1,0 +1,366 @@
+@media screen and (max-width: 1023px) {
+  .container {
+    width: 100%;
+  }
+
+  .navbar .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .navbar .container button {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    justify-self: right;
+    align-self: center;
+  }
+  .navbar .container img {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    justify-self: left;
+    align-self: center;
+  }
+
+  .navbar .container .nav-links-wrapper {
+    grid-column: 1/3;
+    grid-row: 3/4;
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+  }
+
+  .navbar .container .nav-links-wrapper .buy-now {
+    margin-top: var(--size-40);
+  }
+
+  [aria-controls="navbarDropdown"] {
+    display: block;
+  }
+
+  [aria-expanded="false"] ~ .nav-links-wrapper {
+    display: none;
+  }
+
+  [aria-expanded="true"] ~ .nav-links-wrapper {
+    display: block;
+  }
+
+  .header-bg .header-container .header-icons {
+    grid-template-columns: repeat(4, 80px);
+  }
+
+  .header-icons .icon-small {
+    width: 40px;
+    height: 40px;
+  }
+
+  .header-icons .icon-large {
+    width: 60px;
+    height: 60px;
+  }
+
+  .benefits .card {
+    gap: 30px;
+    justify-content: center;
+  }
+
+  .benefits .card .card-element {
+    width: 45%;
+  }
+
+  .play-video .play-video-wrapper {
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+  }
+
+  .play-video .play-video-wrapper img {
+    margin-top: 100px;
+  }
+
+  .play-video .play-video-wrapper .video-word {
+    margin-top: 50px;
+    width: 550px;
+  }
+
+  .why-front-banner .why-front-inner-circle::after {
+    margin-left: 1.563rem;
+  }
+
+  .profile .profile-wrapper .profile-image {
+    width: 610px;
+  }
+
+  .profile .profile-wrapper .hubspot {
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  .trusted img {
+    width: 100px;
+  }
+
+  .pricing .price-wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .pricing .price-wrapper .monthly-price {
+    grid-column: 1/3;
+    grid-row: 1/3;
+    text-align: center;
+  }
+
+  .pricing .price-wrapper .price-component-1 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    justify-self: center;
+  }
+
+  .pricing .price-wrapper .price-component-2 {
+    grid-column: 1/2;
+    grid-row: 4/5;
+    justify-self: center;
+  }
+
+  .pricing .price-wrapper .price-component-3 {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    justify-self: center;
+  }
+
+  .pricing .price-wrapper .price-component-4 {
+    grid-column: 2/3;
+    grid-row: 4/5;
+    justify-self: center;
+  }
+
+  .hire-us .hire-us-wrapper {
+    flex-direction: column;
+    gap: var(--size-10);
+  }
+
+  .hire-us .hire-us-wrapper .hire-us-text {
+    display: flex;
+    gap: var(--size-100);
+  }
+
+  .hire-us .hire-us-wrapper .form-field {
+    align-self: center;
+  }
+
+  footer .footer-top-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: var(--size-30);
+    justify-items: center;
+  }
+
+  footer .footer-top-wrapper .company-logo-element {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+
+  footer .footer-top-wrapper .company-element {
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+
+  footer .footer-top-wrapper .features-element {
+    grid-column: 3/4;
+    grid-row: 1/2;
+  }
+
+  footer .footer-top-wrapper .documentation-element {
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
+
+  footer .footer-top-wrapper .resources-element {
+    grid-column: 3/4;
+    grid-row: 2/3;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .nav-links-wrapper .navbar-nav {
+    flex-direction: column;
+  }
+
+  .nav-links-wrapper .navbar-nav li {
+    margin-bottom: var(--size-10);
+  }
+
+  .nav-links-wrapper .navbar-nav a {
+    margin-right: 0;
+  }
+
+  header .header-container {
+    grid-gap: 50px;
+  }
+
+  .header-container .empowering-wrapper {
+    text-align: center;
+  }
+
+  .header-bg .google {
+    grid-column: 2/3;
+    justify-self: left;
+  }
+
+  .header-bg .paypal {
+    grid-column: 2/3;
+    justify-self: left;
+  }
+
+  .header-bg .atlassian {
+    grid-column: 3/4;
+  }
+
+  .header-bg .google-A {
+    grid-column: 3/4;
+  }
+
+  .header-icons .weave {
+    justify-self: right;
+  }
+
+  .benefits .card .card-element {
+    width: 100%;
+  }
+
+  .why-front .why-front-banner {
+    flex-direction: column;
+    align-items: center;
+    gap: var(--size-20);
+  }
+  .why-front-banner .why-front-inner-circle::after {
+    display: none;
+  }
+
+  .why-front-banner .why-front-banner-icon {
+    display: flex;
+    gap: 30px;
+  }
+
+  .profile .dot-img {
+    width: 200px;
+    left: 135px;
+    top: 130px;
+  }
+
+  .profile .profile-wrapper {
+    justify-content: center;
+  }
+
+  .profile .profile-wrapper .profile-image {
+    width: 400px;
+  }
+
+  .trusted .brands {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .pricing .price-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .pricing .price-wrapper .monthly-price {
+    text-align: center;
+  }
+
+  .pricing .price-wrapper .price-component-1 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+  }
+
+  .pricing .price-wrapper .price-component-2 {
+    grid-column: 1/2;
+    grid-row: 5/6;
+  }
+
+  .pricing .price-wrapper .price-component-3 {
+    grid-column: 1/2;
+    grid-row: 4/5;
+  }
+
+  .pricing .price-wrapper .price-component-4 {
+    grid-column: 1/2;
+    grid-row: 6/7;
+  }
+
+  .hire-us .hire-us-wrapper .hire-us-text {
+    flex-direction: column;
+    text-align: center;
+    gap: var(--size-10);
+  }
+
+  .hire-us .hire-us-wrapper hr {
+    width: 100%;
+  }
+
+  .hire-us .form-field {
+    margin-top: var(--size-50);
+    width: 400px;
+  }
+
+  .hire-us .form-field .input-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hire-us .form-field .input-wrapper input,
+  .form-field .input-wrapper select {
+    width: 100%;
+  }
+
+  .hire-us .hire-us-wrapper .form-field textarea {
+    width: 100%;
+  }
+
+  .terms-condition #terms {
+    align-self: start;
+  }
+
+  footer .footer-top-wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: var(--size-30);
+  }
+
+  footer .footer-top-wrapper li {
+    margin-bottom: var(--size-20);
+  }
+
+  footer .footer-bottom-wrapper,
+  footer .footer-bottom-social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  footer .footer-bottom-image {
+    display: flex;
+    gap: var(--size-40);
+  }
+
+  footer .footer-bottom-image img {
+    margin: 30px 0px 0px 0px;
+  }
+
+  footer .footer-bottom-country {
+    width: 75%;
+  }
+
+  footer .footer-bottom-country select {
+    width: 100%;
+  }
+
+  footer .copy-right {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

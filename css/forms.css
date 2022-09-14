@@ -1,0 +1,83 @@
+/* Style sheet for the form inputs */
+
+.hire-us .hire-us-wrapper {
+  justify-content: center;
+}
+
+.hire-us .hire-us-wrapper .form-field {
+  border: 1px solid var(--blue-bg);
+  background-color: var(--white);
+  border-radius: 10px;
+  padding: var(--size-40);
+  max-width: 540px;
+}
+
+.hire-us .hire-us-wrapper .form-field h2 {
+  font-size: var(--size-18);
+  margin-bottom: var(--size-20);
+}
+
+.hire-us-wrapper .form-field input {
+  padding: 0.938rem;
+  border-radius: var(--size-5);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  width: 45%;
+  margin-bottom: var(--size-20);
+  color: var(--font-color-input);
+}
+
+.hire-us-wrapper .form-field .first-name-input {
+  margin-right: var(--size-20);
+}
+
+.hire-us-wrapper .form-field select {
+  padding: 0.938rem;
+  border-radius: var(--size-5);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  width: 45%;
+  margin-bottom: var(--size-20);
+  margin-right: var(--size-20);
+  color: var(--font-color-input);
+}
+
+.hire-us-wrapper .form-field textarea {
+  width: 440px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  font-family: "Work Sans", sans-serif;
+  padding: var(--size-18);
+  margin-bottom: var(--size-30);
+}
+
+.hire-us-wrapper .form-field .terms-condition {
+  display: flex;
+  margin-bottom: var(--size-20);
+  gap: var(--size-14);
+}
+
+.hire-us-wrapper .form-field .terms-condition #terms {
+  margin: 10px 0;
+  width: 50px;
+}
+
+.hire-us-wrapper .form-field .terms-condition label {
+  font-size: var(--size-14);
+}
+
+.form-field .privacy-policy {
+  display: flex;
+  justify-content: space-around;
+}
+
+.privacy-policy .privacy-policy-terms {
+  color: var(--font-color-input);
+}
+
+.privacy-policy .privacy-policy-link {
+  color: var(--font-color-link);
+}
+
+.form-field .get-started {
+  display: flex;
+  justify-content: center;
+  margin-top: var(--size-30);
+}

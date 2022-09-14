@@ -1,0 +1,126 @@
+/* Global Style Sheet */
+
+:root {
+  --white: white;
+  --black: black;
+  --font-color-base: rgb(72, 89, 109);
+  --font-color-light: rgb(77, 79, 83);
+  --font-color-selected: rgb(0, 82, 253);
+  --font-color-input: rgb(111, 111, 111);
+  --font-color-link: rgb(29, 91, 253);
+  --success: rgb(24, 191, 150);
+  --contrast: rgb(247, 249, 254);
+  --outer-circle: rgb(231, 239, 255);
+  --blue-bg: rgb(24, 38, 73);
+
+  --size-5: 0.313rem;
+  --size-10: 0.625rem;
+  --size-14: 0.875rem;
+  --size-16: 1rem;
+  --size-18: 1.125rem;
+  --size-20: 1.25rem;
+  --size-30: 1.875rem;
+  --size-40: 2.5rem;
+  --size-50: 3.125rem;
+  --size-60: 3.75rem;
+  --size-100: 6.25rem;
+  --size-150: 9.375rem;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: var(--size-16);
+  line-height: 1.6;
+  letter-spacing: 0;
+  color: var(--font-color-base);
+  margin: 0;
+  padding: 0;
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+  vertical-align: middle;
+  border-style: none;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  margin: 0;
+}
+
+h2 {
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.2;
+  margin: 0;
+}
+
+h3 {
+  font-size: 0.875rem;
+  font-weight: 300;
+  line-height: 1.2;
+  margin: 0;
+}
+
+.container {
+  width: 1024px;
+  padding: 0px 20px 0 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  color: var(--font-color-dark);
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+  background-color: red;
+  border: 1px solid transparent;
+  padding: 0.65rem 0.95rem;
+  border-radius: 1.25rem;
+  transition: ease-in-out 0.3s;
+}
+
+.btn-primary {
+  border: 1px solid var(--font-color-link);
+  background-color: var(--font-color-link);
+  transition: ease-in-out 0.3s;
+  color: var(--white);
+  padding: 0.625rem 1.25rem;
+}
+
+.btn-success {
+  border: 1px solid var(--success);
+  background-color: var(--success);
+  transition: ease-in-out 0.3s;
+  color: var(--white);
+  padding: 0.125rem 0.5rem;
+  font-size: var(--size-14);
+}
+
+.learn-more-link {
+  color: var(--font-color-link);
+  font-weight: 500;
+}
